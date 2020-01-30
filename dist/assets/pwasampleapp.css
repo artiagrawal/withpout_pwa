@@ -19500,4 +19500,14 @@ md-toolbar:not(.md-menu-toolbar).md-warn {
   max-height: 225.5px;
 }
 
+.app-container {
+  background-color: blue;
+  padding: 20px;
+}
+.app-container nav a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=pwasampleapp.css.map */

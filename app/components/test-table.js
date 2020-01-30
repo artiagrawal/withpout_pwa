@@ -4,25 +4,37 @@ import { computed } from '@ember/object';
 export default Component.extend({
     columns: computed(function() {
         return [{
-            name: `First Name`,
-            valuePath: `firstName`
+            name: `Name`,
+            valuePath: `name`
           },
           {
-            name: `Last Name`,
-            valuePath: `lastName`
+            name: `User Name`,
+            valuePath: `userName`
+          },
+          {
+            name: `Email`,
+            valuePath: `email`
+          },
+          {
+            name: `Phone`,
+            valuePath: `phone`
+          },
+          {
+            name: `Website`,
+            valuePath: `website`
           }
         ]
-    }),
-    rows: computed(function() {
-        return [
-            {
-              firstName: 'Tony',
-              lastName: 'Stark',
-            },
-            {
-              firstName: 'Tom',
-              lastName: 'Dale',
-            }
-          ]
     })
+    // rows: computed(function() {
+    //     return [
+    //         {
+    //           firstName: 'Tony',
+    //           lastName: 'Stark',
+    //         },
+    //         {
+    //           firstName: 'Tom',
+    //           lastName: 'Dale',
+    //         }
+    //       ]
+    // })
 });

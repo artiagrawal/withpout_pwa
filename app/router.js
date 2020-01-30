@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('users');
+  this.route('create');
+  this.route('posts');
 });
 
 export default Router;

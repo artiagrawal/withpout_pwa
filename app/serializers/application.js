@@ -9,7 +9,11 @@ export default DS.JSONAPISerializer.extend({
               id: el.id,
               type: type.modelName,
               attributes: { 
-                name: el.name
+                name: el.name,
+                username: el.username,
+                email: el.email,
+                phone: el.phone,
+                website: el.website
                }
             }
           })

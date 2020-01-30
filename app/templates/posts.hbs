@@ -1,0 +1,20 @@
+<div class="layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column">
+  <div class="layout-column flex-lg flex-md flex-sm flex-xs">
+    {{#paper-card}}
+      {{#paper-list}}
+        {{#paper-subheader}}User PostDetails{{/paper-subheader}}
+        Currently we don't have any post.
+        {{!-- {{#each model as |post|}}
+          {{#paper-item class="md-3-line"}}
+            <div class="md-list-item-text">
+              <h3>{{post.title}}</h3>
+              <p>{{post.body}}</p>
+            </div>
+          {{/paper-item}}
+        {{/each}} --}}
+      {{/paper-list}}
+    {{/paper-card}}
+  </div>
+</div>
+{{outlet}}
+{{outlet}}

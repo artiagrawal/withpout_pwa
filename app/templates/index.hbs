@@ -1,12 +1,35 @@
-<div class="layout-row layout-xs-column">
-  <div class="layout-column flex-xs flex-gt-xs-50">
-    {{#paper-card}}
-      <TestTable></TestTable>
-      {{#each model as |user|}}
-        <li>{{user.name}}</li>
-      {{/each}}
+
+<div class="layout-row">
+  <div class="layout-column flex-50">
+    {{#paper-card as |card|}}
+      {{#card.title as |title|}}
+        {{#title.text as |text|}}
+          {{#text.headline}}User Details{{/text.headline}}
+        {{/title.text}}
+        {{#title.media size="md"}}
+          <div class="card-media"></div>
+        {{/title.media}}
+      {{/card.title}}
+      {{#card.actions}}
+        {{#paper-button onClick=(action "displayUserDetails")}}Details{{/paper-button}}
+        {{#paper-button onClick=(action "addUserDetails")}}Add User{{/paper-button}}
+      {{/card.actions}}
+    {{/paper-card}}
+  </div>
+  <div class="layout-column flex-50">
+    {{#paper-card as |card|}}
+      {{#card.title as |title|}}
+        {{#title.text as |text|}}
+          {{#text.headline}}User Posts Details{{/text.headline}}
+        {{/title.text}}
+        {{#title.media size="md"}}
+          <div class="card-media"></div>
+        {{/title.media}}
+      {{/card.title}}
+      {{#card.actions}}
+        {{#paper-button onClick=(action "displayUserPostDetails")}}Details{{/paper-button}}
+      {{/card.actions}}
     {{/paper-card}}
   </div>
 </div>
-
 {{outlet}}

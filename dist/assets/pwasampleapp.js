@@ -1380,22 +1380,34 @@
   var _default = Ember.Component.extend({
     columns: Ember.computed(function () {
       return [{
-        name: `First Name`,
-        valuePath: `firstName`
+        name: `Name`,
+        valuePath: `name`
       }, {
-        name: `Last Name`,
-        valuePath: `lastName`
-      }];
-    }),
-    rows: Ember.computed(function () {
-      return [{
-        firstName: 'Tony',
-        lastName: 'Stark'
+        name: `User Name`,
+        valuePath: `userName`
       }, {
-        firstName: 'Tom',
-        lastName: 'Dale'
+        name: `Email`,
+        valuePath: `email`
+      }, {
+        name: `Phone`,
+        valuePath: `phone`
+      }, {
+        name: `Website`,
+        valuePath: `website`
       }];
-    })
+    }) // rows: computed(function() {
+    //     return [
+    //         {
+    //           firstName: 'Tony',
+    //           lastName: 'Stark',
+    //         },
+    //         {
+    //           firstName: 'Tom',
+    //           lastName: 'Dale',
+    //         }
+    //       ]
+    // })
+
   });
 
   _exports.default = _default;
@@ -1438,6 +1450,52 @@
       return _component.default;
     }
   });
+});
+;define("pwasampleapp/controllers/create", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.Controller.extend({
+    actions: {
+      basicSubmitAction() {
+        this.transitionToRoute('index');
+      }
+
+    }
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/controllers/index", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.Controller.extend({
+    actions: {
+      displayUserDetails() {
+        this.transitionToRoute('users');
+      },
+
+      displayUserPostDetails() {
+        this.transitionToRoute('posts');
+      },
+
+      addUserDetails() {
+        this.transitionToRoute('create');
+      }
+
+    }
+  });
+
+  _exports.default = _default;
 });
 ;define("pwasampleapp/helpers/-paper-underscore", ["exports", "ember-paper/helpers/underscore"], function (_exports, _underscore) {
   "use strict";
@@ -2207,7 +2265,7 @@
   _exports.default = void 0;
 
   var _default = _emberData.default.Model.extend({
-    name: _emberData.default.attr('number'),
+    name: _emberData.default.attr('string'),
     username: _emberData.default.attr('string'),
     email: _emberData.default.attr('string'),
     phone: _emberData.default.attr('string'),
@@ -2237,11 +2295,61 @@
     location: _environment.default.locationType,
     rootURL: _environment.default.rootURL
   });
-  Router.map(function () {});
+  Router.map(function () {
+    this.route('users');
+    this.route('create');
+    this.route('posts');
+  });
   var _default = Router;
   _exports.default = _default;
 });
+;define("pwasampleapp/routes/create", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.Route.extend({});
+
+  _exports.default = _default;
+});
 ;define("pwasampleapp/routes/index", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.Route.extend({
+    model() {
+      return this.store.findAll('user');
+    }
+
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/routes/posts", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.Route.extend({
+    model() {
+      return this.store.findAll('post');
+    }
+
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/routes/users", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2276,7 +2384,11 @@
             id: el.id,
             type: type.modelName,
             attributes: {
-              name: el.name
+              name: el.name,
+              username: el.username,
+              email: el.email,
+              phone: el.phone,
+              website: el.website
             }
           };
         })
@@ -2533,8 +2645,8 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "r9tTdFTJ",
-    "block": "{\"symbols\":[],\"statements\":[[7,\"h1\"],[9],[0,\"welcome\"],[10],[0,\"\\n\"],[4,\"paper-button\",null,[[\"raised\"],[true]],{\"statements\":[[0,\"Button with action\"]],\"parameters\":[]},null],[0,\"\\n\"],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "id": "rZsKmLWU",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row app-container\"],[9],[0,\"\\n  \"],[7,\"header\"],[9],[0,\"\\n    \"],[7,\"nav\"],[9],[0,\"\\n\"],[4,\"link-to\",[\"index\"],null,{\"statements\":[[0,\"        Home\\n\"]],\"parameters\":[]},null],[0,\"    \"],[10],[0,\"\\n  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
       "moduleName": "pwasampleapp/templates/application.hbs"
     }
@@ -2551,10 +2663,28 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "erXWB4l+",
-    "block": "{\"symbols\":[\"t\",\"&default\"],\"statements\":[[5,\"ember-table\",[],[[],[]],{\"statements\":[[0,\"\\n  \"],[6,[22,1,[\"head\"]],[],[[\"@columns\"],[[21,\"columns\"]]]],[0,\"\\n  \"],[6,[22,1,[\"body\"]],[],[[\"@rows\"],[[21,\"rows\"]]]],[0,\"\\n\"]],\"parameters\":[1]}],[0,\"\\n\"],[14,2]],\"hasEval\":false}",
+    "id": "QbQypmmA",
+    "block": "{\"symbols\":[\"t\"],\"statements\":[[5,\"ember-table\",[],[[],[]],{\"statements\":[[0,\"\\n    \"],[6,[22,1,[\"head\"]],[],[[\"@columns\"],[[21,\"columns\"]]]],[0,\"\\n    \"],[6,[22,1,[\"body\"]],[],[[\"@rows\"],[[21,\"model\"]]]],[0,\"\\n\"]],\"parameters\":[1]}]],\"hasEval\":false}",
     "meta": {
       "moduleName": "pwasampleapp/templates/components/test-table.hbs"
+    }
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/templates/create", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.HTMLBars.template({
+    "id": "MWeojUKS",
+    "block": "{\"symbols\":[\"form\",\"country\",\"select\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-form\",null,[[\"onSubmit\"],[[27,\"action\",[[22,0,[]],\"basicSubmitAction\"],null]]],{\"statements\":[[0,\"        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L7:C18) \"],null]],[[\"label\",\"value\",\"onChange\",\"required\"],[\"First Name\",[23,[\"firstName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"firstName\"]]],null]],null],true]]],false],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L8:C18) \"],null]],[[\"label\",\"value\",\"onChange\"],[\"Last Name\",[23,[\"lastName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"lastName\"]]],null]],null]]]],false],[0,\"\\n            \"],[10],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"autocomplete\"]],\"expected `form.autocomplete` to be a contextual component but found a string. Did you mean `(component form.autocomplete)`? ('pwasampleapp/templates/create.hbs' @ L11:C19) \"],null]],[[\"required\",\"options\",\"selected\",\"searchField\",\"labelPath\",\"label\",\"loadingMessage\",\"noMatchesMessage\",\"onSelectionChange\"],[true,[23,[\"items\"]],[23,[\"selectedCountry\"]],\"name\",\"name\",\"Country\",\"Searching countries...\",\"Oops this country doesn't exist.\",[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"selectedCountry\"]]],null]],null]]],{\"statements\":[[0,\"                \"],[1,[27,\"paper-autocomplete-highlight\",null,[[\"label\",\"searchText\",\"flags\"],[[22,2,[\"name\"]],[22,3,[\"searchText\"]],\"i\"]]],false],[0,\"\\n\"]],\"parameters\":[2,3]},null],[0,\"                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L26:C18) \"],null]],[[\"type\",\"label\",\"value\",\"onChange\",\"min\",\"max\",\"required\"],[\"number\",\"Age\",[23,[\"age\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"age\"]]],null]],null],13,65,true]]],false],[0,\"\\n            \"],[10],[0,\"\\n        \"],[10],[0,\"\\n        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"submit-button\"]],\"expected `form.submit-button` to be a contextual component but found a string. Did you mean `(component form.submit-button)`? ('pwasampleapp/templates/create.hbs' @ L30:C15) \"],null]],[[\"raised\",\"primary\"],[true,true]],{\"statements\":[[0,\"Submit\"]],\"parameters\":[]},null],[0,\"\\n        \"],[10],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},null],[0,\"    \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "meta": {
+      "moduleName": "pwasampleapp/templates/create.hbs"
     }
   });
 
@@ -2569,10 +2699,46 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "ml5S+Qsc",
-    "block": "{\"symbols\":[\"user\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-xs-column\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-xs flex-gt-xs-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[0,\"      \"],[5,\"test-table\",[],[[],[]],{\"statements\":[],\"parameters\":[]}],[0,\"\\n\"],[4,\"each\",[[23,[\"model\"]]],null,{\"statements\":[[0,\"        \"],[7,\"li\"],[9],[1,[22,1,[\"name\"]],false],[10],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "id": "BXA3M+IA",
+    "block": "{\"symbols\":[\"card\",\"title\",\"text\",\"card\",\"title\",\"text\"],\"statements\":[[0,\"\\n\"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('pwasampleapp/templates/index.hbs' @ L5:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('pwasampleapp/templates/index.hbs' @ L6:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,6,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('pwasampleapp/templates/index.hbs' @ L7:C13) \"],null]],null,{\"statements\":[[0,\"User Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[6]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('pwasampleapp/templates/index.hbs' @ L9:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[5]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('pwasampleapp/templates/index.hbs' @ L13:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"addUserDetails\"],null]]],{\"statements\":[[0,\"Add User\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[4]},null],[0,\"  \"],[10],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('pwasampleapp/templates/index.hbs' @ L21:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('pwasampleapp/templates/index.hbs' @ L22:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,3,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('pwasampleapp/templates/index.hbs' @ L23:C13) \"],null]],null,{\"statements\":[[0,\"User Posts Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[3]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('pwasampleapp/templates/index.hbs' @ L25:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[2]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('pwasampleapp/templates/index.hbs' @ L29:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserPostDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
       "moduleName": "pwasampleapp/templates/index.hbs"
+    }
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/templates/posts", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.HTMLBars.template({
+    "id": "ivFU2xzr",
+    "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-list\",null,null,{\"statements\":[[0,\"        \"],[4,\"paper-subheader\",null,null,{\"statements\":[[0,\"User PostDetails\"]],\"parameters\":[]},null],[0,\"\\n        Currently we don't have any post.\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "meta": {
+      "moduleName": "pwasampleapp/templates/posts.hbs"
+    }
+  });
+
+  _exports.default = _default;
+});
+;define("pwasampleapp/templates/users", ["exports"], function (_exports) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _default = Ember.HTMLBars.template({
+    "id": "GIh/zHfB",
+    "block": "{\"symbols\":[\"user\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-list\",null,null,{\"statements\":[[0,\"        \"],[4,\"paper-subheader\",null,null,{\"statements\":[[0,\"User Details\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"each\",[[23,[\"model\"]]],null,{\"statements\":[[4,\"paper-item\",null,[[\"class\"],[\"md-3-line\"]],{\"statements\":[[0,\"            \"],[7,\"div\"],[11,\"class\",\"md-list-item-text\"],[9],[0,\"\\n              \"],[7,\"h3\"],[9],[1,[22,1,[\"name\"]],false],[10],[0,\"\\n              \"],[7,\"h4\"],[9],[1,[22,1,[\"email\"]],false],[10],[0,\"\\n              \"],[7,\"p\"],[9],[0,\"Some longer notes here could be here. But they aren't.\"],[10],[0,\"\\n            \"],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null]],\"parameters\":[]},null]],\"parameters\":[]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "meta": {
+      "moduleName": "pwasampleapp/templates/users.hbs"
     }
   });
 
@@ -2618,7 +2784,7 @@ catch(err) {
 ;
 if (typeof FastBoot === 'undefined') {
   if (!runningTests) {
-    require('pwasampleapp/app')['default'].create({"name":"pwasampleapp","version":"0.0.0+87064ddb"});
+    require('pwasampleapp/app')['default'].create({"name":"pwasampleapp","version":"0.0.0+17413cc5"});
   }
 }
 

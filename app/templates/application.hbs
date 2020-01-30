@@ -1,6 +1,13 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-<h1>welcome</h1>
-{{#paper-button raised=true}}Button with action{{/paper-button}}
+<div class="layout-row app-container">
+  <header >
+    <nav>
+      {{#link-to "index"}}
+        Home
+      {{/link-to}}
+    </nav>
+  </header>
+</div>
 {{!-- Feel free to remove this! --}}
 
 {{outlet}}

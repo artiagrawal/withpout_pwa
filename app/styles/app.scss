@@ -1,1 +1,10 @@
 @import 'ember-paper';
+.app-container{
+    background-color:blue;
+    padding: 20px;
+    nav a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+}
