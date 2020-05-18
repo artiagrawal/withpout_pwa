@@ -2720,8 +2720,8 @@
 });
 ;
 
-;define('pwasampleapp/config/environment', [], function() {
-  var prefix = 'pwasampleapp';
+;define('withoutpwasampleapp/config/environment', [], function() {
+  var prefix = 'withoutpwasampleapp';
 try {
   var metaName = prefix + '/config/environment';
   var rawConfig = document.querySelector('meta[name="' + metaName + '"]').getAttribute('content');
@@ -2741,7 +2741,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("pwasampleapp/app")["default"].create({"name":"withoutpwasampleapp","version":"0.0.0+c9adeef7"});
+            require("withoutpwasampleapp/app")["default"].create({"name":"withoutpwasampleapp","version":"0.0.0+cc855142"});
           }
         
 //# sourceMappingURL=withoutpwasampleapp.map

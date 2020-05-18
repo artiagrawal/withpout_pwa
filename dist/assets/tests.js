@@ -598,8 +598,8 @@ define("withoutpwasampleapp/tests/unit/serializers/application-test", ["qunit", 
     });
   });
 });
-define('pwasampleapp/config/environment', [], function() {
-  var prefix = 'pwasampleapp';
+define('withoutpwasampleapp/config/environment', [], function() {
+  var prefix = 'withoutpwasampleapp';
 try {
   var metaName = prefix + '/config/environment';
   var rawConfig = document.querySelector('meta[name="' + metaName + '"]').getAttribute('content');
@@ -617,6 +617,6 @@ catch(err) {
 
 });
 
-require('pwasampleapp/tests/test-helper');
+require('withoutpwasampleapp/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 //# sourceMappingURL=tests.map

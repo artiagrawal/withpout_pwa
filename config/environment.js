@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'pwasampleapp',
+    modulePrefix: 'withoutpwasampleapp',
     environment,
     rootURL: '/',
     locationType: 'auto',

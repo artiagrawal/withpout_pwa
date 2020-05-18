@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Without PWA Sample App</title>
+    <meta
+      name="description"
+      content="This is sample app with ember without PWA"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Without PWA Sample App</title>
-  <meta name="description" content="This is sample app with ember without PWA">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{content-for "head"}}
 
-  {{content-for "head"}}
+    <meta name="msapplication-config" content="{{rootURL}}browserconfig.xml" />
 
-  <meta name="msapplication-config" content="{{rootURL}}browserconfig.xml">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+    <link
+      integrity=""
+      rel="stylesheet"
+      href="{{rootURL}}assets/withoutpwasampleapp.css"
+    />
 
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/pwasampleapp.css">
+    {{content-for "head-footer"}}
+  </head>
 
-  {{content-for "head-footer"}}
-</head>
+  <body>
+    <main>
+      {{content-for "body"}}
+    </main>
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/withoutpwasampleapp.js"></script>
 
-<body>
-  <main>
-    {{content-for "body"}}
-  </main>
-  <noscript>Your browser does not support JavaScript!</noscript>
-  <script src="{{rootURL}}assets/vendor.js"></script>
-  <script src="{{rootURL}}assets/pwasampleapp.js"></script>
-
-  {{content-for "body-footer"}}
-</body>
-
+    {{content-for "body-footer"}}
+  </body>
 </html>
