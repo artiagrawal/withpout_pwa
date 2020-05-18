@@ -1,6 +1,6 @@
 'use strict';
 
-define("pwasampleapp/tests/helpers/ember-power-select", ["exports", "ember-power-select/test-support/helpers"], function (_exports, _helpers) {
+define("withoutpwasampleapp/tests/helpers/ember-power-select", ["exports", "ember-power-select/test-support/helpers"], function (_exports, _helpers) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -46,7 +46,7 @@ define("pwasampleapp/tests/helpers/ember-power-select", ["exports", "ember-power
     return (0, _helpers.default)();
   }
 });
-define("pwasampleapp/tests/integration/components/table-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+define("withoutpwasampleapp/tests/integration/components/table-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
   "use strict";
 
   (0, _qunit.module)('Integration | Component | table', function (hooks) {
@@ -70,7 +70,7 @@ define("pwasampleapp/tests/integration/components/table-test", ["qunit", "ember-
     });
   });
 });
-define("pwasampleapp/tests/integration/components/test-table-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
+define("withoutpwasampleapp/tests/integration/components/test-table-test", ["qunit", "ember-qunit", "@ember/test-helpers"], function (_qunit, _emberQunit, _testHelpers) {
   "use strict";
 
   (0, _qunit.module)('Integration | Component | test-table', function (hooks) {
@@ -94,7 +94,7 @@ define("pwasampleapp/tests/integration/components/test-table-test", ["qunit", "e
     });
   });
 });
-define("pwasampleapp/tests/lint/app.lint-test", [], function () {
+define("withoutpwasampleapp/tests/lint/app.lint-test", [], function () {
   "use strict";
 
   QUnit.module('ESLint | app');
@@ -163,36 +163,36 @@ define("pwasampleapp/tests/lint/app.lint-test", [], function () {
     assert.ok(true, 'serializers/application.js should pass ESLint\n\n');
   });
 });
-define("pwasampleapp/tests/lint/templates.template.lint-test", [], function () {
+define("withoutpwasampleapp/tests/lint/templates.template.lint-test", [], function () {
   "use strict";
 
   QUnit.module('TemplateLint');
-  QUnit.test('pwasampleapp/templates/application.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/application.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'pwasampleapp/templates/application.hbs should pass TemplateLint.\n\n');
+    assert.ok(true, 'withoutpwasampleapp/templates/application.hbs should pass TemplateLint.\n\n');
   });
-  QUnit.test('pwasampleapp/templates/components/test-table.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/components/test-table.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'pwasampleapp/templates/components/test-table.hbs should pass TemplateLint.\n\npwasampleapp/templates/components/test-table.hbs\n  2:4  error  Incorrect indentation for `<t.head>` beginning at L2:C4. Expected `<t.head>` to be at an indentation of 2 but was found at 4.  block-indentation\n  3:4  error  Incorrect indentation for `<t.body>` beginning at L3:C4. Expected `<t.body>` to be at an indentation of 2 but was found at 4.  block-indentation\n');
+    assert.ok(false, 'withoutpwasampleapp/templates/components/test-table.hbs should pass TemplateLint.\n\nwithoutpwasampleapp/templates/components/test-table.hbs\n  2:4  error  Incorrect indentation for `<t.head>` beginning at L2:C4. Expected `<t.head>` to be at an indentation of 2 but was found at 4.  block-indentation\n  3:4  error  Incorrect indentation for `<t.body>` beginning at L3:C4. Expected `<t.body>` to be at an indentation of 2 but was found at 4.  block-indentation\n');
   });
-  QUnit.test('pwasampleapp/templates/create.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/create.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'pwasampleapp/templates/create.hbs should pass TemplateLint.\n\npwasampleapp/templates/create.hbs\n  2:4  error  Incorrect indentation for `<div>` beginning at L2:C4. Expected `<div>` to be at an indentation of 2 but was found at 4.  block-indentation\n  3:8  error  Incorrect indentation for `{{#paper-card}}` beginning at L3:C8. Expected `{{#paper-card}}` to be at an indentation of 6 but was found at 8.  block-indentation\n  4:8  error  Incorrect indentation for `{{#paper-form}}` beginning at L4:C8. Expected `{{#paper-form}}` to be at an indentation of 10 but was found at 8.  block-indentation\n  5:8  error  Incorrect indentation for `<div>` beginning at L5:C8. Expected `<div>` to be at an indentation of 10 but was found at 8.  block-indentation\n  29:8  error  Incorrect indentation for `<div>` beginning at L29:C8. Expected `<div>` to be at an indentation of 10 but was found at 8.  block-indentation\n  6:12  error  Incorrect indentation for `<div>` beginning at L6:C12. Expected `<div>` to be at an indentation of 10 but was found at 12.  block-indentation\n  10:12  error  Incorrect indentation for `<div>` beginning at L10:C12. Expected `<div>` to be at an indentation of 10 but was found at 12.  block-indentation\n  7:16  error  Incorrect indentation for `{{form.input}}` beginning at L7:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  8:16  error  Incorrect indentation for `{{form.input}}` beginning at L8:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  11:16  error  Incorrect indentation for `{{#form.autocomplete}}` beginning at L11:C16. Expected `{{#form.autocomplete}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  26:16  error  Incorrect indentation for `{{form.input}}` beginning at L26:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  21:16  error  Incorrect indentation for `{{paper-autocomplete-highlight}}` beginning at L21:C16. Expected `{{paper-autocomplete-highlight}}` to be at an indentation of 18 but was found at 16.  block-indentation\n  30:12  error  Incorrect indentation for `{{#form.submit-button}}` beginning at L30:C12. Expected `{{#form.submit-button}}` to be at an indentation of 10 but was found at 12.  block-indentation\n');
+    assert.ok(false, 'withoutpwasampleapp/templates/create.hbs should pass TemplateLint.\n\nwithoutpwasampleapp/templates/create.hbs\n  2:4  error  Incorrect indentation for `<div>` beginning at L2:C4. Expected `<div>` to be at an indentation of 2 but was found at 4.  block-indentation\n  3:8  error  Incorrect indentation for `{{#paper-card}}` beginning at L3:C8. Expected `{{#paper-card}}` to be at an indentation of 6 but was found at 8.  block-indentation\n  4:8  error  Incorrect indentation for `{{#paper-form}}` beginning at L4:C8. Expected `{{#paper-form}}` to be at an indentation of 10 but was found at 8.  block-indentation\n  5:8  error  Incorrect indentation for `<div>` beginning at L5:C8. Expected `<div>` to be at an indentation of 10 but was found at 8.  block-indentation\n  29:8  error  Incorrect indentation for `<div>` beginning at L29:C8. Expected `<div>` to be at an indentation of 10 but was found at 8.  block-indentation\n  6:12  error  Incorrect indentation for `<div>` beginning at L6:C12. Expected `<div>` to be at an indentation of 10 but was found at 12.  block-indentation\n  10:12  error  Incorrect indentation for `<div>` beginning at L10:C12. Expected `<div>` to be at an indentation of 10 but was found at 12.  block-indentation\n  7:16  error  Incorrect indentation for `{{form.input}}` beginning at L7:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  8:16  error  Incorrect indentation for `{{form.input}}` beginning at L8:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  11:16  error  Incorrect indentation for `{{#form.autocomplete}}` beginning at L11:C16. Expected `{{#form.autocomplete}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  26:16  error  Incorrect indentation for `{{form.input}}` beginning at L26:C16. Expected `{{form.input}}` to be at an indentation of 14 but was found at 16.  block-indentation\n  21:16  error  Incorrect indentation for `{{paper-autocomplete-highlight}}` beginning at L21:C16. Expected `{{paper-autocomplete-highlight}}` to be at an indentation of 18 but was found at 16.  block-indentation\n  30:12  error  Incorrect indentation for `{{#form.submit-button}}` beginning at L30:C12. Expected `{{#form.submit-button}}` to be at an indentation of 10 but was found at 12.  block-indentation\n');
   });
-  QUnit.test('pwasampleapp/templates/index.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/index.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'pwasampleapp/templates/index.hbs should pass TemplateLint.\n\n');
+    assert.ok(true, 'withoutpwasampleapp/templates/index.hbs should pass TemplateLint.\n\n');
   });
-  QUnit.test('pwasampleapp/templates/posts.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/posts.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'pwasampleapp/templates/posts.hbs should pass TemplateLint.\n\n');
+    assert.ok(true, 'withoutpwasampleapp/templates/posts.hbs should pass TemplateLint.\n\n');
   });
-  QUnit.test('pwasampleapp/templates/users.hbs', function (assert) {
+  QUnit.test('withoutpwasampleapp/templates/users.hbs', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'pwasampleapp/templates/users.hbs should pass TemplateLint.\n\n');
+    assert.ok(true, 'withoutpwasampleapp/templates/users.hbs should pass TemplateLint.\n\n');
   });
 });
-define("pwasampleapp/tests/lint/tests.lint-test", [], function () {
+define("withoutpwasampleapp/tests/lint/tests.lint-test", [], function () {
   "use strict";
 
   QUnit.module('ESLint | tests');
@@ -253,7 +253,7 @@ define("pwasampleapp/tests/lint/tests.lint-test", [], function () {
     assert.ok(true, 'unit/serializers/application-test.js should pass ESLint\n\n');
   });
 });
-define("pwasampleapp/tests/page-object", ["exports", "ember-cli-page-object"], function (_exports, _emberCliPageObject) {
+define("withoutpwasampleapp/tests/page-object", ["exports", "ember-cli-page-object"], function (_exports, _emberCliPageObject) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -454,13 +454,13 @@ define("pwasampleapp/tests/page-object", ["exports", "ember-cli-page-object"], f
     url: 'https://ember-cli-page-object.js.org/docs/v1.16.x/deprecations/#import-from-test-support'
   }));
 });
-define("pwasampleapp/tests/test-helper", ["pwasampleapp/app", "pwasampleapp/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
+define("withoutpwasampleapp/tests/test-helper", ["withoutpwasampleapp/app", "withoutpwasampleapp/config/environment", "@ember/test-helpers", "ember-qunit"], function (_app, _environment, _testHelpers, _emberQunit) {
   "use strict";
 
   (0, _testHelpers.setApplication)(_app.default.create(_environment.default.APP));
   (0, _emberQunit.start)();
 });
-define("pwasampleapp/tests/unit/adapters/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/adapters/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Adapter | application', function (hooks) {
@@ -472,7 +472,7 @@ define("pwasampleapp/tests/unit/adapters/application-test", ["qunit", "ember-qun
     });
   });
 });
-define("pwasampleapp/tests/unit/controllers/create-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/controllers/create-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Controller | create', function (hooks) {
@@ -484,7 +484,7 @@ define("pwasampleapp/tests/unit/controllers/create-test", ["qunit", "ember-qunit
     });
   });
 });
-define("pwasampleapp/tests/unit/controllers/index-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/controllers/index-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Controller | index', function (hooks) {
@@ -496,7 +496,7 @@ define("pwasampleapp/tests/unit/controllers/index-test", ["qunit", "ember-qunit"
     });
   });
 });
-define("pwasampleapp/tests/unit/models/employee-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/models/employee-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Model | employee', function (hooks) {
@@ -509,7 +509,7 @@ define("pwasampleapp/tests/unit/models/employee-test", ["qunit", "ember-qunit"],
     });
   });
 });
-define("pwasampleapp/tests/unit/models/post-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/models/post-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Model | post', function (hooks) {
@@ -522,7 +522,7 @@ define("pwasampleapp/tests/unit/models/post-test", ["qunit", "ember-qunit"], fun
     });
   });
 });
-define("pwasampleapp/tests/unit/models/user-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/models/user-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Model | user', function (hooks) {
@@ -535,7 +535,7 @@ define("pwasampleapp/tests/unit/models/user-test", ["qunit", "ember-qunit"], fun
     });
   });
 });
-define("pwasampleapp/tests/unit/routes/create-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/routes/create-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Route | create', function (hooks) {
@@ -546,7 +546,7 @@ define("pwasampleapp/tests/unit/routes/create-test", ["qunit", "ember-qunit"], f
     });
   });
 });
-define("pwasampleapp/tests/unit/routes/index-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/routes/index-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Route | index', function (hooks) {
@@ -557,7 +557,7 @@ define("pwasampleapp/tests/unit/routes/index-test", ["qunit", "ember-qunit"], fu
     });
   });
 });
-define("pwasampleapp/tests/unit/routes/posts-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/routes/posts-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Route | posts', function (hooks) {
@@ -568,7 +568,7 @@ define("pwasampleapp/tests/unit/routes/posts-test", ["qunit", "ember-qunit"], fu
     });
   });
 });
-define("pwasampleapp/tests/unit/routes/users-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/routes/users-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Route | users', function (hooks) {
@@ -579,7 +579,7 @@ define("pwasampleapp/tests/unit/routes/users-test", ["qunit", "ember-qunit"], fu
     });
   });
 });
-define("pwasampleapp/tests/unit/serializers/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
+define("withoutpwasampleapp/tests/unit/serializers/application-test", ["qunit", "ember-qunit"], function (_qunit, _emberQunit) {
   "use strict";
 
   (0, _qunit.module)('Unit | Serializer | application', function (hooks) {

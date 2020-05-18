@@ -2,7 +2,7 @@
 
 
 
-;define("pwasampleapp/adapters/application", ["exports", "ember-data"], function (_exports, _emberData) {
+;define("withoutpwasampleapp/adapters/application", ["exports", "ember-data"], function (_exports, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -16,7 +16,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/app", ["exports", "pwasampleapp/resolver", "ember-load-initializers", "pwasampleapp/config/environment"], function (_exports, _resolver, _emberLoadInitializers, _environment) {
+;define("withoutpwasampleapp/app", ["exports", "withoutpwasampleapp/resolver", "ember-load-initializers", "withoutpwasampleapp/config/environment"], function (_exports, _resolver, _emberLoadInitializers, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -32,7 +32,7 @@
   var _default = App;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/-ember-table-private/row-wrapper", ["exports", "ember-table/components/-private/row-wrapper"], function (_exports, _rowWrapper) {
+;define("withoutpwasampleapp/components/-ember-table-private/row-wrapper", ["exports", "ember-table/components/-private/row-wrapper"], function (_exports, _rowWrapper) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -45,7 +45,7 @@
     }
   });
 });
-;define("pwasampleapp/components/-ember-table-private/simple-checkbox", ["exports", "ember-table/components/-private/simple-checkbox"], function (_exports, _simpleCheckbox) {
+;define("withoutpwasampleapp/components/-ember-table-private/simple-checkbox", ["exports", "ember-table/components/-private/simple-checkbox"], function (_exports, _simpleCheckbox) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -58,7 +58,7 @@
     }
   });
 });
-;define("pwasampleapp/components/basic-dropdown", ["exports", "ember-basic-dropdown/components/basic-dropdown"], function (_exports, _basicDropdown) {
+;define("withoutpwasampleapp/components/basic-dropdown", ["exports", "ember-basic-dropdown/components/basic-dropdown"], function (_exports, _basicDropdown) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -71,7 +71,7 @@
     }
   });
 });
-;define("pwasampleapp/components/basic-dropdown/content-element", ["exports", "ember-basic-dropdown/components/basic-dropdown/content-element"], function (_exports, _contentElement) {
+;define("withoutpwasampleapp/components/basic-dropdown/content-element", ["exports", "ember-basic-dropdown/components/basic-dropdown/content-element"], function (_exports, _contentElement) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -84,7 +84,7 @@
     }
   });
 });
-;define("pwasampleapp/components/basic-dropdown/content", ["exports", "ember-basic-dropdown/components/basic-dropdown/content"], function (_exports, _content) {
+;define("withoutpwasampleapp/components/basic-dropdown/content", ["exports", "ember-basic-dropdown/components/basic-dropdown/content"], function (_exports, _content) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -97,7 +97,7 @@
     }
   });
 });
-;define("pwasampleapp/components/basic-dropdown/trigger", ["exports", "ember-basic-dropdown/components/basic-dropdown/trigger"], function (_exports, _trigger) {
+;define("withoutpwasampleapp/components/basic-dropdown/trigger", ["exports", "ember-basic-dropdown/components/basic-dropdown/trigger"], function (_exports, _trigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -110,7 +110,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-table", ["exports", "ember-table/components/ember-table/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-table", ["exports", "ember-table/components/ember-table/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -123,7 +123,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-tbody", ["exports", "ember-table/components/ember-tbody/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-tbody", ["exports", "ember-table/components/ember-tbody/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -136,7 +136,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-td", ["exports", "ember-table/components/ember-td/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-td", ["exports", "ember-table/components/ember-td/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -149,7 +149,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-tfoot", ["exports", "ember-table/components/ember-tfoot/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-tfoot", ["exports", "ember-table/components/ember-tfoot/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -162,7 +162,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-th", ["exports", "ember-table/components/ember-th/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-th", ["exports", "ember-table/components/ember-th/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -175,7 +175,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-th/resize-handle", ["exports", "ember-table/components/ember-th/resize-handle/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-th/resize-handle", ["exports", "ember-table/components/ember-th/resize-handle/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -188,7 +188,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-th/sort-indicator", ["exports", "ember-table/components/ember-th/sort-indicator/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-th/sort-indicator", ["exports", "ember-table/components/ember-th/sort-indicator/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -201,7 +201,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-thead", ["exports", "ember-table/components/ember-thead/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-thead", ["exports", "ember-table/components/ember-thead/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -214,7 +214,7 @@
     }
   });
 });
-;define("pwasampleapp/components/ember-tr", ["exports", "ember-table/components/ember-tr/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/ember-tr", ["exports", "ember-table/components/ember-tr/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -227,7 +227,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-autocomplete-content", ["exports", "ember-paper/components/paper-autocomplete-content"], function (_exports, _paperAutocompleteContent) {
+;define("withoutpwasampleapp/components/paper-autocomplete-content", ["exports", "ember-paper/components/paper-autocomplete-content"], function (_exports, _paperAutocompleteContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -237,7 +237,7 @@
   var _default = _paperAutocompleteContent.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-autocomplete-dropdown", ["exports", "ember-paper/components/paper-autocomplete-dropdown"], function (_exports, _paperAutocompleteDropdown) {
+;define("withoutpwasampleapp/components/paper-autocomplete-dropdown", ["exports", "ember-paper/components/paper-autocomplete-dropdown"], function (_exports, _paperAutocompleteDropdown) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -247,7 +247,7 @@
   var _default = _paperAutocompleteDropdown.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-autocomplete-highlight", ["exports", "ember-paper/components/paper-autocomplete-highlight"], function (_exports, _paperAutocompleteHighlight) {
+;define("withoutpwasampleapp/components/paper-autocomplete-highlight", ["exports", "ember-paper/components/paper-autocomplete-highlight"], function (_exports, _paperAutocompleteHighlight) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -260,7 +260,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-autocomplete-options", ["exports", "ember-paper/components/paper-autocomplete-options"], function (_exports, _paperAutocompleteOptions) {
+;define("withoutpwasampleapp/components/paper-autocomplete-options", ["exports", "ember-paper/components/paper-autocomplete-options"], function (_exports, _paperAutocompleteOptions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -273,7 +273,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-autocomplete-trigger-container", ["exports", "ember-paper/components/paper-autocomplete-trigger-container"], function (_exports, _paperAutocompleteTriggerContainer) {
+;define("withoutpwasampleapp/components/paper-autocomplete-trigger-container", ["exports", "ember-paper/components/paper-autocomplete-trigger-container"], function (_exports, _paperAutocompleteTriggerContainer) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -283,7 +283,7 @@
   var _default = _paperAutocompleteTriggerContainer.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-autocomplete-trigger", ["exports", "ember-paper/components/paper-autocomplete-trigger"], function (_exports, _paperAutocompleteTrigger) {
+;define("withoutpwasampleapp/components/paper-autocomplete-trigger", ["exports", "ember-paper/components/paper-autocomplete-trigger"], function (_exports, _paperAutocompleteTrigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -293,7 +293,7 @@
   var _default = _paperAutocompleteTrigger.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-autocomplete", ["exports", "ember-paper/components/paper-autocomplete"], function (_exports, _paperAutocomplete) {
+;define("withoutpwasampleapp/components/paper-autocomplete", ["exports", "ember-paper/components/paper-autocomplete"], function (_exports, _paperAutocomplete) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -306,7 +306,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-backdrop", ["exports", "ember-paper/components/paper-backdrop"], function (_exports, _paperBackdrop) {
+;define("withoutpwasampleapp/components/paper-backdrop", ["exports", "ember-paper/components/paper-backdrop"], function (_exports, _paperBackdrop) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -316,7 +316,7 @@
   var _default = _paperBackdrop.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-button", ["exports", "ember-paper/components/paper-button"], function (_exports, _paperButton) {
+;define("withoutpwasampleapp/components/paper-button", ["exports", "ember-paper/components/paper-button"], function (_exports, _paperButton) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -326,7 +326,7 @@
   var _default = _paperButton.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-actions", ["exports", "ember-paper/components/paper-card-actions"], function (_exports, _paperCardActions) {
+;define("withoutpwasampleapp/components/paper-card-actions", ["exports", "ember-paper/components/paper-card-actions"], function (_exports, _paperCardActions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -336,7 +336,7 @@
   var _default = _paperCardActions.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-avatar", ["exports", "ember-paper/components/paper-card-avatar"], function (_exports, _paperCardAvatar) {
+;define("withoutpwasampleapp/components/paper-card-avatar", ["exports", "ember-paper/components/paper-card-avatar"], function (_exports, _paperCardAvatar) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -346,7 +346,7 @@
   var _default = _paperCardAvatar.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-content", ["exports", "ember-paper/components/paper-card-content"], function (_exports, _paperCardContent) {
+;define("withoutpwasampleapp/components/paper-card-content", ["exports", "ember-paper/components/paper-card-content"], function (_exports, _paperCardContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -356,7 +356,7 @@
   var _default = _paperCardContent.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-header-headline", ["exports", "ember-paper/components/paper-card-header-headline"], function (_exports, _paperCardHeaderHeadline) {
+;define("withoutpwasampleapp/components/paper-card-header-headline", ["exports", "ember-paper/components/paper-card-header-headline"], function (_exports, _paperCardHeaderHeadline) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -366,7 +366,7 @@
   var _default = _paperCardHeaderHeadline.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-header-subhead", ["exports", "ember-paper/components/paper-card-header-subhead"], function (_exports, _paperCardHeaderSubhead) {
+;define("withoutpwasampleapp/components/paper-card-header-subhead", ["exports", "ember-paper/components/paper-card-header-subhead"], function (_exports, _paperCardHeaderSubhead) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -376,7 +376,7 @@
   var _default = _paperCardHeaderSubhead.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-header-text", ["exports", "ember-paper/components/paper-card-header-text"], function (_exports, _paperCardHeaderText) {
+;define("withoutpwasampleapp/components/paper-card-header-text", ["exports", "ember-paper/components/paper-card-header-text"], function (_exports, _paperCardHeaderText) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -386,7 +386,7 @@
   var _default = _paperCardHeaderText.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-header-title", ["exports", "ember-paper/components/paper-card-header-title"], function (_exports, _paperCardHeaderTitle) {
+;define("withoutpwasampleapp/components/paper-card-header-title", ["exports", "ember-paper/components/paper-card-header-title"], function (_exports, _paperCardHeaderTitle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -396,7 +396,7 @@
   var _default = _paperCardHeaderTitle.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-header", ["exports", "ember-paper/components/paper-card-header"], function (_exports, _paperCardHeader) {
+;define("withoutpwasampleapp/components/paper-card-header", ["exports", "ember-paper/components/paper-card-header"], function (_exports, _paperCardHeader) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -406,7 +406,7 @@
   var _default = _paperCardHeader.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-icon-actions", ["exports", "ember-paper/components/paper-card-icon-actions"], function (_exports, _paperCardIconActions) {
+;define("withoutpwasampleapp/components/paper-card-icon-actions", ["exports", "ember-paper/components/paper-card-icon-actions"], function (_exports, _paperCardIconActions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -416,7 +416,7 @@
   var _default = _paperCardIconActions.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-image", ["exports", "ember-paper/components/paper-card-image"], function (_exports, _paperCardImage) {
+;define("withoutpwasampleapp/components/paper-card-image", ["exports", "ember-paper/components/paper-card-image"], function (_exports, _paperCardImage) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -426,7 +426,7 @@
   var _default = _paperCardImage.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-media", ["exports", "ember-paper/components/paper-card-media"], function (_exports, _paperCardMedia) {
+;define("withoutpwasampleapp/components/paper-card-media", ["exports", "ember-paper/components/paper-card-media"], function (_exports, _paperCardMedia) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -436,7 +436,7 @@
   var _default = _paperCardMedia.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-title-media", ["exports", "ember-paper/components/paper-card-title-media"], function (_exports, _paperCardTitleMedia) {
+;define("withoutpwasampleapp/components/paper-card-title-media", ["exports", "ember-paper/components/paper-card-title-media"], function (_exports, _paperCardTitleMedia) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -446,7 +446,7 @@
   var _default = _paperCardTitleMedia.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-title-text", ["exports", "ember-paper/components/paper-card-title-text"], function (_exports, _paperCardTitleText) {
+;define("withoutpwasampleapp/components/paper-card-title-text", ["exports", "ember-paper/components/paper-card-title-text"], function (_exports, _paperCardTitleText) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -456,7 +456,7 @@
   var _default = _paperCardTitleText.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card-title", ["exports", "ember-paper/components/paper-card-title"], function (_exports, _paperCardTitle) {
+;define("withoutpwasampleapp/components/paper-card-title", ["exports", "ember-paper/components/paper-card-title"], function (_exports, _paperCardTitle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -466,7 +466,7 @@
   var _default = _paperCardTitle.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-card", ["exports", "ember-paper/components/paper-card"], function (_exports, _paperCard) {
+;define("withoutpwasampleapp/components/paper-card", ["exports", "ember-paper/components/paper-card"], function (_exports, _paperCard) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -476,7 +476,7 @@
   var _default = _paperCard.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-checkbox", ["exports", "ember-paper/components/paper-checkbox"], function (_exports, _paperCheckbox) {
+;define("withoutpwasampleapp/components/paper-checkbox", ["exports", "ember-paper/components/paper-checkbox"], function (_exports, _paperCheckbox) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -486,7 +486,7 @@
   var _default = _paperCheckbox.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-chips", ["exports", "ember-paper/components/paper-chips"], function (_exports, _paperChips) {
+;define("withoutpwasampleapp/components/paper-chips", ["exports", "ember-paper/components/paper-chips"], function (_exports, _paperChips) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -496,7 +496,7 @@
   var _default = _paperChips.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-contact-chips", ["exports", "ember-paper/components/paper-contact-chips"], function (_exports, _paperContactChips) {
+;define("withoutpwasampleapp/components/paper-contact-chips", ["exports", "ember-paper/components/paper-contact-chips"], function (_exports, _paperContactChips) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -506,7 +506,7 @@
   var _default = _paperContactChips.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-content", ["exports", "ember-paper/components/paper-content"], function (_exports, _paperContent) {
+;define("withoutpwasampleapp/components/paper-content", ["exports", "ember-paper/components/paper-content"], function (_exports, _paperContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -516,7 +516,7 @@
   var _default = _paperContent.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-dialog-actions", ["exports", "ember-paper/components/paper-dialog-actions"], function (_exports, _paperDialogActions) {
+;define("withoutpwasampleapp/components/paper-dialog-actions", ["exports", "ember-paper/components/paper-dialog-actions"], function (_exports, _paperDialogActions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -529,7 +529,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-dialog-container", ["exports", "ember-paper/components/paper-dialog-container"], function (_exports, _paperDialogContainer) {
+;define("withoutpwasampleapp/components/paper-dialog-container", ["exports", "ember-paper/components/paper-dialog-container"], function (_exports, _paperDialogContainer) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -542,7 +542,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-dialog-content", ["exports", "ember-paper/components/paper-dialog-content"], function (_exports, _paperDialogContent) {
+;define("withoutpwasampleapp/components/paper-dialog-content", ["exports", "ember-paper/components/paper-dialog-content"], function (_exports, _paperDialogContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -555,7 +555,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-dialog-inner", ["exports", "ember-paper/components/paper-dialog-inner"], function (_exports, _paperDialogInner) {
+;define("withoutpwasampleapp/components/paper-dialog-inner", ["exports", "ember-paper/components/paper-dialog-inner"], function (_exports, _paperDialogInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -568,7 +568,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-dialog", ["exports", "ember-paper/components/paper-dialog"], function (_exports, _paperDialog) {
+;define("withoutpwasampleapp/components/paper-dialog", ["exports", "ember-paper/components/paper-dialog"], function (_exports, _paperDialog) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -581,7 +581,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-divider", ["exports", "ember-paper/components/paper-divider"], function (_exports, _paperDivider) {
+;define("withoutpwasampleapp/components/paper-divider", ["exports", "ember-paper/components/paper-divider"], function (_exports, _paperDivider) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -591,7 +591,7 @@
   var _default = _paperDivider.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-form", ["exports", "ember-paper/components/paper-form"], function (_exports, _paperForm) {
+;define("withoutpwasampleapp/components/paper-form", ["exports", "ember-paper/components/paper-form"], function (_exports, _paperForm) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -601,7 +601,7 @@
   var _default = _paperForm.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-grid-list", ["exports", "ember-paper/components/paper-grid-list"], function (_exports, _paperGridList) {
+;define("withoutpwasampleapp/components/paper-grid-list", ["exports", "ember-paper/components/paper-grid-list"], function (_exports, _paperGridList) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -614,7 +614,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-grid-tile-footer", ["exports", "ember-paper/components/paper-grid-tile-footer"], function (_exports, _paperGridTileFooter) {
+;define("withoutpwasampleapp/components/paper-grid-tile-footer", ["exports", "ember-paper/components/paper-grid-tile-footer"], function (_exports, _paperGridTileFooter) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -627,7 +627,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-grid-tile", ["exports", "ember-paper/components/paper-grid-tile"], function (_exports, _paperGridTile) {
+;define("withoutpwasampleapp/components/paper-grid-tile", ["exports", "ember-paper/components/paper-grid-tile"], function (_exports, _paperGridTile) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -640,7 +640,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-icon", ["exports", "ember-paper/components/paper-icon"], function (_exports, _paperIcon) {
+;define("withoutpwasampleapp/components/paper-icon", ["exports", "ember-paper/components/paper-icon"], function (_exports, _paperIcon) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -650,7 +650,7 @@
   var _default = _paperIcon.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-ink-bar", ["exports", "ember-paper/components/paper-ink-bar"], function (_exports, _paperInkBar) {
+;define("withoutpwasampleapp/components/paper-ink-bar", ["exports", "ember-paper/components/paper-ink-bar"], function (_exports, _paperInkBar) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -663,7 +663,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-input", ["exports", "ember-paper/components/paper-input"], function (_exports, _paperInput) {
+;define("withoutpwasampleapp/components/paper-input", ["exports", "ember-paper/components/paper-input"], function (_exports, _paperInput) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -673,7 +673,7 @@
   var _default = _paperInput.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-item", ["exports", "ember-paper/components/paper-item"], function (_exports, _paperItem) {
+;define("withoutpwasampleapp/components/paper-item", ["exports", "ember-paper/components/paper-item"], function (_exports, _paperItem) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -683,7 +683,7 @@
   var _default = _paperItem.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-list", ["exports", "ember-paper/components/paper-list"], function (_exports, _paperList) {
+;define("withoutpwasampleapp/components/paper-list", ["exports", "ember-paper/components/paper-list"], function (_exports, _paperList) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -693,7 +693,7 @@
   var _default = _paperList.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-menu-content-inner", ["exports", "ember-paper/components/paper-menu-content-inner"], function (_exports, _paperMenuContentInner) {
+;define("withoutpwasampleapp/components/paper-menu-content-inner", ["exports", "ember-paper/components/paper-menu-content-inner"], function (_exports, _paperMenuContentInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -706,7 +706,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-menu-content", ["exports", "ember-paper/components/paper-menu-content"], function (_exports, _paperMenuContent) {
+;define("withoutpwasampleapp/components/paper-menu-content", ["exports", "ember-paper/components/paper-menu-content"], function (_exports, _paperMenuContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -719,7 +719,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-menu-item", ["exports", "ember-paper/components/paper-menu-item"], function (_exports, _paperMenuItem) {
+;define("withoutpwasampleapp/components/paper-menu-item", ["exports", "ember-paper/components/paper-menu-item"], function (_exports, _paperMenuItem) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -732,7 +732,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-menu", ["exports", "ember-paper/components/paper-menu"], function (_exports, _paperMenu) {
+;define("withoutpwasampleapp/components/paper-menu", ["exports", "ember-paper/components/paper-menu"], function (_exports, _paperMenu) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -745,7 +745,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-optgroup", ["exports", "ember-paper/components/paper-optgroup"], function (_exports, _paperOptgroup) {
+;define("withoutpwasampleapp/components/paper-optgroup", ["exports", "ember-paper/components/paper-optgroup"], function (_exports, _paperOptgroup) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -758,7 +758,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-option", ["exports", "ember-paper/components/paper-option"], function (_exports, _paperOption) {
+;define("withoutpwasampleapp/components/paper-option", ["exports", "ember-paper/components/paper-option"], function (_exports, _paperOption) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -768,7 +768,7 @@
   var _default = _paperOption.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-progress-circular", ["exports", "ember-paper/components/paper-progress-circular"], function (_exports, _paperProgressCircular) {
+;define("withoutpwasampleapp/components/paper-progress-circular", ["exports", "ember-paper/components/paper-progress-circular"], function (_exports, _paperProgressCircular) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -781,7 +781,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-progress-linear", ["exports", "ember-paper/components/paper-progress-linear"], function (_exports, _paperProgressLinear) {
+;define("withoutpwasampleapp/components/paper-progress-linear", ["exports", "ember-paper/components/paper-progress-linear"], function (_exports, _paperProgressLinear) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -794,7 +794,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-radio-group-label", ["exports", "ember-paper/components/paper-radio-group-label"], function (_exports, _paperRadioGroupLabel) {
+;define("withoutpwasampleapp/components/paper-radio-group-label", ["exports", "ember-paper/components/paper-radio-group-label"], function (_exports, _paperRadioGroupLabel) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -807,7 +807,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-radio-group", ["exports", "ember-paper/components/paper-radio-group"], function (_exports, _paperRadioGroup) {
+;define("withoutpwasampleapp/components/paper-radio-group", ["exports", "ember-paper/components/paper-radio-group"], function (_exports, _paperRadioGroup) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -820,7 +820,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-radio-proxiable", ["exports", "ember-paper/components/paper-radio-proxiable"], function (_exports, _paperRadioProxiable) {
+;define("withoutpwasampleapp/components/paper-radio-proxiable", ["exports", "ember-paper/components/paper-radio-proxiable"], function (_exports, _paperRadioProxiable) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -833,7 +833,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-radio", ["exports", "ember-paper/components/paper-radio"], function (_exports, _paperRadio) {
+;define("withoutpwasampleapp/components/paper-radio", ["exports", "ember-paper/components/paper-radio"], function (_exports, _paperRadio) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -846,7 +846,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-reset-button", ["exports", "ember-paper/components/paper-reset-button"], function (_exports, _paperResetButton) {
+;define("withoutpwasampleapp/components/paper-reset-button", ["exports", "ember-paper/components/paper-reset-button"], function (_exports, _paperResetButton) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -859,7 +859,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-content", ["exports", "ember-paper/components/paper-select-content"], function (_exports, _paperSelectContent) {
+;define("withoutpwasampleapp/components/paper-select-content", ["exports", "ember-paper/components/paper-select-content"], function (_exports, _paperSelectContent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -872,7 +872,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-header", ["exports", "ember-paper/components/paper-select-header"], function (_exports, _paperSelectHeader) {
+;define("withoutpwasampleapp/components/paper-select-header", ["exports", "ember-paper/components/paper-select-header"], function (_exports, _paperSelectHeader) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -885,7 +885,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-menu-inner", ["exports", "ember-paper/components/paper-select-menu-inner"], function (_exports, _paperSelectMenuInner) {
+;define("withoutpwasampleapp/components/paper-select-menu-inner", ["exports", "ember-paper/components/paper-select-menu-inner"], function (_exports, _paperSelectMenuInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -898,7 +898,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-menu-trigger", ["exports", "ember-paper/components/paper-select-menu-trigger"], function (_exports, _paperSelectMenuTrigger) {
+;define("withoutpwasampleapp/components/paper-select-menu-trigger", ["exports", "ember-paper/components/paper-select-menu-trigger"], function (_exports, _paperSelectMenuTrigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -908,7 +908,7 @@
   var _default = _paperSelectMenuTrigger.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-select-menu", ["exports", "ember-paper/components/paper-select-menu"], function (_exports, _paperSelectMenu) {
+;define("withoutpwasampleapp/components/paper-select-menu", ["exports", "ember-paper/components/paper-select-menu"], function (_exports, _paperSelectMenu) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -921,7 +921,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-options", ["exports", "ember-paper/components/paper-select-options"], function (_exports, _paperSelectOptions) {
+;define("withoutpwasampleapp/components/paper-select-options", ["exports", "ember-paper/components/paper-select-options"], function (_exports, _paperSelectOptions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -934,7 +934,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-search", ["exports", "ember-paper/components/paper-select-search"], function (_exports, _paperSelectSearch) {
+;define("withoutpwasampleapp/components/paper-select-search", ["exports", "ember-paper/components/paper-select-search"], function (_exports, _paperSelectSearch) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -947,7 +947,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select-trigger", ["exports", "ember-paper/components/paper-select-trigger"], function (_exports, _paperSelectTrigger) {
+;define("withoutpwasampleapp/components/paper-select-trigger", ["exports", "ember-paper/components/paper-select-trigger"], function (_exports, _paperSelectTrigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -960,7 +960,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-select", ["exports", "ember-paper/components/paper-select"], function (_exports, _paperSelect) {
+;define("withoutpwasampleapp/components/paper-select", ["exports", "ember-paper/components/paper-select"], function (_exports, _paperSelect) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -970,7 +970,7 @@
   var _default = _paperSelect.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-sidenav-container", ["exports", "ember-paper/components/paper-sidenav-container"], function (_exports, _paperSidenavContainer) {
+;define("withoutpwasampleapp/components/paper-sidenav-container", ["exports", "ember-paper/components/paper-sidenav-container"], function (_exports, _paperSidenavContainer) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -983,7 +983,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-sidenav-inner", ["exports", "ember-paper/components/paper-sidenav-inner"], function (_exports, _paperSidenavInner) {
+;define("withoutpwasampleapp/components/paper-sidenav-inner", ["exports", "ember-paper/components/paper-sidenav-inner"], function (_exports, _paperSidenavInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -993,7 +993,7 @@
   var _default = _paperSidenavInner.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-sidenav-toggle", ["exports", "ember-paper/components/paper-sidenav-toggle"], function (_exports, _paperSidenavToggle) {
+;define("withoutpwasampleapp/components/paper-sidenav-toggle", ["exports", "ember-paper/components/paper-sidenav-toggle"], function (_exports, _paperSidenavToggle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1003,7 +1003,7 @@
   var _default = _paperSidenavToggle.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-sidenav", ["exports", "ember-paper/components/paper-sidenav"], function (_exports, _paperSidenav) {
+;define("withoutpwasampleapp/components/paper-sidenav", ["exports", "ember-paper/components/paper-sidenav"], function (_exports, _paperSidenav) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1013,7 +1013,7 @@
   var _default = _paperSidenav.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-slider", ["exports", "ember-paper/components/paper-slider"], function (_exports, _paperSlider) {
+;define("withoutpwasampleapp/components/paper-slider", ["exports", "ember-paper/components/paper-slider"], function (_exports, _paperSlider) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1023,7 +1023,7 @@
   var _default = _paperSlider.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-snackbar-text", ["exports", "ember-paper/components/paper-snackbar-text"], function (_exports, _paperSnackbarText) {
+;define("withoutpwasampleapp/components/paper-snackbar-text", ["exports", "ember-paper/components/paper-snackbar-text"], function (_exports, _paperSnackbarText) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1036,7 +1036,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-speed-dial-actions-action", ["exports", "ember-paper/components/paper-speed-dial-actions-action"], function (_exports, _paperSpeedDialActionsAction) {
+;define("withoutpwasampleapp/components/paper-speed-dial-actions-action", ["exports", "ember-paper/components/paper-speed-dial-actions-action"], function (_exports, _paperSpeedDialActionsAction) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1049,7 +1049,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-speed-dial-actions", ["exports", "ember-paper/components/paper-speed-dial-actions"], function (_exports, _paperSpeedDialActions) {
+;define("withoutpwasampleapp/components/paper-speed-dial-actions", ["exports", "ember-paper/components/paper-speed-dial-actions"], function (_exports, _paperSpeedDialActions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1062,7 +1062,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-speed-dial-trigger", ["exports", "ember-paper/components/paper-speed-dial-trigger"], function (_exports, _paperSpeedDialTrigger) {
+;define("withoutpwasampleapp/components/paper-speed-dial-trigger", ["exports", "ember-paper/components/paper-speed-dial-trigger"], function (_exports, _paperSpeedDialTrigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1075,7 +1075,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-speed-dial", ["exports", "ember-paper/components/paper-speed-dial"], function (_exports, _paperSpeedDial) {
+;define("withoutpwasampleapp/components/paper-speed-dial", ["exports", "ember-paper/components/paper-speed-dial"], function (_exports, _paperSpeedDial) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1088,7 +1088,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-subheader", ["exports", "ember-paper/components/paper-subheader"], function (_exports, _paperSubheader) {
+;define("withoutpwasampleapp/components/paper-subheader", ["exports", "ember-paper/components/paper-subheader"], function (_exports, _paperSubheader) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1098,7 +1098,7 @@
   var _default = _paperSubheader.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-switch", ["exports", "ember-paper/components/paper-switch"], function (_exports, _paperSwitch) {
+;define("withoutpwasampleapp/components/paper-switch", ["exports", "ember-paper/components/paper-switch"], function (_exports, _paperSwitch) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1108,7 +1108,7 @@
   var _default = _paperSwitch.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-tab", ["exports", "ember-paper/components/paper-tab"], function (_exports, _paperTab) {
+;define("withoutpwasampleapp/components/paper-tab", ["exports", "ember-paper/components/paper-tab"], function (_exports, _paperTab) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1121,7 +1121,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-tabs", ["exports", "ember-paper/components/paper-tabs"], function (_exports, _paperTabs) {
+;define("withoutpwasampleapp/components/paper-tabs", ["exports", "ember-paper/components/paper-tabs"], function (_exports, _paperTabs) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1134,7 +1134,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-toast-inner", ["exports", "ember-paper/components/paper-toast-inner"], function (_exports, _paperToastInner) {
+;define("withoutpwasampleapp/components/paper-toast-inner", ["exports", "ember-paper/components/paper-toast-inner"], function (_exports, _paperToastInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1147,7 +1147,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-toast-text", ["exports", "ember-paper/components/paper-toast-text"], function (_exports, _paperToastText) {
+;define("withoutpwasampleapp/components/paper-toast-text", ["exports", "ember-paper/components/paper-toast-text"], function (_exports, _paperToastText) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1160,7 +1160,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-toast", ["exports", "ember-paper/components/paper-toast"], function (_exports, _paperToast) {
+;define("withoutpwasampleapp/components/paper-toast", ["exports", "ember-paper/components/paper-toast"], function (_exports, _paperToast) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1173,7 +1173,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-toaster", ["exports", "ember-paper/components/paper-toaster"], function (_exports, _paperToaster) {
+;define("withoutpwasampleapp/components/paper-toaster", ["exports", "ember-paper/components/paper-toaster"], function (_exports, _paperToaster) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1186,7 +1186,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-toolbar-tools", ["exports", "ember-paper/components/paper-toolbar-tools"], function (_exports, _paperToolbarTools) {
+;define("withoutpwasampleapp/components/paper-toolbar-tools", ["exports", "ember-paper/components/paper-toolbar-tools"], function (_exports, _paperToolbarTools) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1196,7 +1196,7 @@
   var _default = _paperToolbarTools.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-toolbar", ["exports", "ember-paper/components/paper-toolbar"], function (_exports, _paperToolbar) {
+;define("withoutpwasampleapp/components/paper-toolbar", ["exports", "ember-paper/components/paper-toolbar"], function (_exports, _paperToolbar) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1206,7 +1206,7 @@
   var _default = _paperToolbar.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-tooltip-inner", ["exports", "ember-paper/components/paper-tooltip-inner"], function (_exports, _paperTooltipInner) {
+;define("withoutpwasampleapp/components/paper-tooltip-inner", ["exports", "ember-paper/components/paper-tooltip-inner"], function (_exports, _paperTooltipInner) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1219,7 +1219,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-tooltip", ["exports", "ember-paper/components/paper-tooltip"], function (_exports, _paperTooltip) {
+;define("withoutpwasampleapp/components/paper-tooltip", ["exports", "ember-paper/components/paper-tooltip"], function (_exports, _paperTooltip) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1232,7 +1232,7 @@
     }
   });
 });
-;define("pwasampleapp/components/paper-virtual-repeat-scroller", ["exports", "ember-paper/components/paper-virtual-repeat-scroller"], function (_exports, _paperVirtualRepeatScroller) {
+;define("withoutpwasampleapp/components/paper-virtual-repeat-scroller", ["exports", "ember-paper/components/paper-virtual-repeat-scroller"], function (_exports, _paperVirtualRepeatScroller) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1242,7 +1242,7 @@
   var _default = _paperVirtualRepeatScroller.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/paper-virtual-repeat", ["exports", "ember-paper/components/paper-virtual-repeat"], function (_exports, _paperVirtualRepeat) {
+;define("withoutpwasampleapp/components/paper-virtual-repeat", ["exports", "ember-paper/components/paper-virtual-repeat"], function (_exports, _paperVirtualRepeat) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1252,7 +1252,7 @@
   var _default = _paperVirtualRepeat.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/components/power-select-multiple", ["exports", "ember-power-select/components/power-select-multiple"], function (_exports, _powerSelectMultiple) {
+;define("withoutpwasampleapp/components/power-select-multiple", ["exports", "ember-power-select/components/power-select-multiple"], function (_exports, _powerSelectMultiple) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1265,7 +1265,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select-multiple/trigger", ["exports", "ember-power-select/components/power-select-multiple/trigger"], function (_exports, _trigger) {
+;define("withoutpwasampleapp/components/power-select-multiple/trigger", ["exports", "ember-power-select/components/power-select-multiple/trigger"], function (_exports, _trigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1278,7 +1278,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select", ["exports", "ember-power-select/components/power-select"], function (_exports, _powerSelect) {
+;define("withoutpwasampleapp/components/power-select", ["exports", "ember-power-select/components/power-select"], function (_exports, _powerSelect) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1291,7 +1291,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/before-options", ["exports", "ember-power-select/components/power-select/before-options"], function (_exports, _beforeOptions) {
+;define("withoutpwasampleapp/components/power-select/before-options", ["exports", "ember-power-select/components/power-select/before-options"], function (_exports, _beforeOptions) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1304,7 +1304,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/options", ["exports", "ember-power-select/components/power-select/options"], function (_exports, _options) {
+;define("withoutpwasampleapp/components/power-select/options", ["exports", "ember-power-select/components/power-select/options"], function (_exports, _options) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1317,7 +1317,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/placeholder", ["exports", "ember-power-select/components/power-select/placeholder"], function (_exports, _placeholder) {
+;define("withoutpwasampleapp/components/power-select/placeholder", ["exports", "ember-power-select/components/power-select/placeholder"], function (_exports, _placeholder) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1330,7 +1330,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/power-select-group", ["exports", "ember-power-select/components/power-select/power-select-group"], function (_exports, _powerSelectGroup) {
+;define("withoutpwasampleapp/components/power-select/power-select-group", ["exports", "ember-power-select/components/power-select/power-select-group"], function (_exports, _powerSelectGroup) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1343,7 +1343,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/search-message", ["exports", "ember-power-select/components/power-select/search-message"], function (_exports, _searchMessage) {
+;define("withoutpwasampleapp/components/power-select/search-message", ["exports", "ember-power-select/components/power-select/search-message"], function (_exports, _searchMessage) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1356,7 +1356,7 @@
     }
   });
 });
-;define("pwasampleapp/components/power-select/trigger", ["exports", "ember-power-select/components/power-select/trigger"], function (_exports, _trigger) {
+;define("withoutpwasampleapp/components/power-select/trigger", ["exports", "ember-power-select/components/power-select/trigger"], function (_exports, _trigger) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1369,7 +1369,7 @@
     }
   });
 });
-;define("pwasampleapp/components/test-table", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/components/test-table", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1412,7 +1412,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/components/transition-group", ["exports", "ember-css-transitions/components/transition-group"], function (_exports, _transitionGroup) {
+;define("withoutpwasampleapp/components/transition-group", ["exports", "ember-css-transitions/components/transition-group"], function (_exports, _transitionGroup) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1425,7 +1425,7 @@
     }
   });
 });
-;define("pwasampleapp/components/vertical-collection", ["exports", "@html-next/vertical-collection/components/vertical-collection/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/vertical-collection", ["exports", "@html-next/vertical-collection/components/vertical-collection/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1438,7 +1438,7 @@
     }
   });
 });
-;define("pwasampleapp/components/virtual-each", ["exports", "virtual-each/components/virtual-each/component"], function (_exports, _component) {
+;define("withoutpwasampleapp/components/virtual-each", ["exports", "virtual-each/components/virtual-each/component"], function (_exports, _component) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1451,7 +1451,7 @@
     }
   });
 });
-;define("pwasampleapp/controllers/create", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/controllers/create", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1470,7 +1470,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/controllers/index", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/controllers/index", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1497,7 +1497,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/helpers/-paper-underscore", ["exports", "ember-paper/helpers/underscore"], function (_exports, _underscore) {
+;define("withoutpwasampleapp/helpers/-paper-underscore", ["exports", "ember-paper/helpers/underscore"], function (_exports, _underscore) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1516,7 +1516,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/and", ["exports", "ember-truth-helpers/helpers/and"], function (_exports, _and) {
+;define("withoutpwasampleapp/helpers/and", ["exports", "ember-truth-helpers/helpers/and"], function (_exports, _and) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1535,7 +1535,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/app-version", ["exports", "pwasampleapp/config/environment", "ember-cli-app-version/utils/regexp"], function (_exports, _environment, _regexp) {
+;define("withoutpwasampleapp/helpers/app-version", ["exports", "withoutpwasampleapp/config/environment", "ember-cli-app-version/utils/regexp"], function (_exports, _environment, _regexp) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1574,7 +1574,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/helpers/cancel-all", ["exports", "ember-concurrency/helpers/cancel-all"], function (_exports, _cancelAll) {
+;define("withoutpwasampleapp/helpers/cancel-all", ["exports", "ember-concurrency/helpers/cancel-all"], function (_exports, _cancelAll) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1587,7 +1587,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/ember-power-select-is-group", ["exports", "ember-power-select/helpers/ember-power-select-is-group"], function (_exports, _emberPowerSelectIsGroup) {
+;define("withoutpwasampleapp/helpers/ember-power-select-is-group", ["exports", "ember-power-select/helpers/ember-power-select-is-group"], function (_exports, _emberPowerSelectIsGroup) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1606,7 +1606,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/ember-power-select-is-selected", ["exports", "ember-power-select/helpers/ember-power-select-is-selected"], function (_exports, _emberPowerSelectIsSelected) {
+;define("withoutpwasampleapp/helpers/ember-power-select-is-selected", ["exports", "ember-power-select/helpers/ember-power-select-is-selected"], function (_exports, _emberPowerSelectIsSelected) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1625,7 +1625,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/ember-power-select-true-string-if-present", ["exports", "ember-power-select/helpers/ember-power-select-true-string-if-present"], function (_exports, _emberPowerSelectTrueStringIfPresent) {
+;define("withoutpwasampleapp/helpers/ember-power-select-true-string-if-present", ["exports", "ember-power-select/helpers/ember-power-select-true-string-if-present"], function (_exports, _emberPowerSelectTrueStringIfPresent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1644,7 +1644,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/eq", ["exports", "ember-truth-helpers/helpers/equal"], function (_exports, _equal) {
+;define("withoutpwasampleapp/helpers/eq", ["exports", "ember-truth-helpers/helpers/equal"], function (_exports, _equal) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1663,7 +1663,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/gt", ["exports", "ember-truth-helpers/helpers/gt"], function (_exports, _gt) {
+;define("withoutpwasampleapp/helpers/gt", ["exports", "ember-truth-helpers/helpers/gt"], function (_exports, _gt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1682,7 +1682,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/gte", ["exports", "ember-truth-helpers/helpers/gte"], function (_exports, _gte) {
+;define("withoutpwasampleapp/helpers/gte", ["exports", "ember-truth-helpers/helpers/gte"], function (_exports, _gte) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1701,7 +1701,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/is-array", ["exports", "ember-truth-helpers/helpers/is-array"], function (_exports, _isArray) {
+;define("withoutpwasampleapp/helpers/is-array", ["exports", "ember-truth-helpers/helpers/is-array"], function (_exports, _isArray) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1720,7 +1720,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/is-empty", ["exports", "ember-truth-helpers/helpers/is-empty"], function (_exports, _isEmpty) {
+;define("withoutpwasampleapp/helpers/is-empty", ["exports", "ember-truth-helpers/helpers/is-empty"], function (_exports, _isEmpty) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1733,7 +1733,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/is-equal", ["exports", "ember-truth-helpers/helpers/is-equal"], function (_exports, _isEqual) {
+;define("withoutpwasampleapp/helpers/is-equal", ["exports", "ember-truth-helpers/helpers/is-equal"], function (_exports, _isEqual) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1752,7 +1752,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/loc", ["exports", "@ember/string/helpers/loc"], function (_exports, _loc) {
+;define("withoutpwasampleapp/helpers/loc", ["exports", "@ember/string/helpers/loc"], function (_exports, _loc) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1771,7 +1771,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/lt", ["exports", "ember-truth-helpers/helpers/lt"], function (_exports, _lt) {
+;define("withoutpwasampleapp/helpers/lt", ["exports", "ember-truth-helpers/helpers/lt"], function (_exports, _lt) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1790,7 +1790,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/lte", ["exports", "ember-truth-helpers/helpers/lte"], function (_exports, _lte) {
+;define("withoutpwasampleapp/helpers/lte", ["exports", "ember-truth-helpers/helpers/lte"], function (_exports, _lte) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1809,7 +1809,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/not-eq", ["exports", "ember-truth-helpers/helpers/not-equal"], function (_exports, _notEqual) {
+;define("withoutpwasampleapp/helpers/not-eq", ["exports", "ember-truth-helpers/helpers/not-equal"], function (_exports, _notEqual) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1828,7 +1828,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/not", ["exports", "ember-truth-helpers/helpers/not"], function (_exports, _not) {
+;define("withoutpwasampleapp/helpers/not", ["exports", "ember-truth-helpers/helpers/not"], function (_exports, _not) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1847,7 +1847,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/or", ["exports", "ember-truth-helpers/helpers/or"], function (_exports, _or) {
+;define("withoutpwasampleapp/helpers/or", ["exports", "ember-truth-helpers/helpers/or"], function (_exports, _or) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1866,7 +1866,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/perform", ["exports", "ember-concurrency/helpers/perform"], function (_exports, _perform) {
+;define("withoutpwasampleapp/helpers/perform", ["exports", "ember-concurrency/helpers/perform"], function (_exports, _perform) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1879,7 +1879,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/pluralize", ["exports", "ember-inflector/lib/helpers/pluralize"], function (_exports, _pluralize) {
+;define("withoutpwasampleapp/helpers/pluralize", ["exports", "ember-inflector/lib/helpers/pluralize"], function (_exports, _pluralize) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1889,7 +1889,7 @@
   var _default = _pluralize.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/helpers/singularize", ["exports", "ember-inflector/lib/helpers/singularize"], function (_exports, _singularize) {
+;define("withoutpwasampleapp/helpers/singularize", ["exports", "ember-inflector/lib/helpers/singularize"], function (_exports, _singularize) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1899,7 +1899,7 @@
   var _default = _singularize.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/helpers/task", ["exports", "ember-concurrency/helpers/task"], function (_exports, _task) {
+;define("withoutpwasampleapp/helpers/task", ["exports", "ember-concurrency/helpers/task"], function (_exports, _task) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1912,7 +1912,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/user-agent", ["exports", "ember-useragent/helpers/user-agent"], function (_exports, _userAgent) {
+;define("withoutpwasampleapp/helpers/user-agent", ["exports", "ember-useragent/helpers/user-agent"], function (_exports, _userAgent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1925,7 +1925,7 @@
     }
   });
 });
-;define("pwasampleapp/helpers/xor", ["exports", "ember-truth-helpers/helpers/xor"], function (_exports, _xor) {
+;define("withoutpwasampleapp/helpers/xor", ["exports", "ember-truth-helpers/helpers/xor"], function (_exports, _xor) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1944,7 +1944,7 @@
     }
   });
 });
-;define("pwasampleapp/initializers/app-version", ["exports", "ember-cli-app-version/initializer-factory", "pwasampleapp/config/environment"], function (_exports, _initializerFactory, _environment) {
+;define("withoutpwasampleapp/initializers/app-version", ["exports", "ember-cli-app-version/initializer-factory", "withoutpwasampleapp/config/environment"], function (_exports, _initializerFactory, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1964,7 +1964,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/initializers/container-debug-adapter", ["exports", "ember-resolver/resolvers/classic/container-debug-adapter"], function (_exports, _containerDebugAdapter) {
+;define("withoutpwasampleapp/initializers/container-debug-adapter", ["exports", "ember-resolver/resolvers/classic/container-debug-adapter"], function (_exports, _containerDebugAdapter) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1983,7 +1983,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/initializers/debug", ["exports", "@html-next/vertical-collection/-debug"], function (_exports, _debug) {
+;define("withoutpwasampleapp/initializers/debug", ["exports", "@html-next/vertical-collection/-debug"], function (_exports, _debug) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1998,7 +1998,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/initializers/ember-concurrency", ["exports", "ember-concurrency/initializers/ember-concurrency"], function (_exports, _emberConcurrency) {
+;define("withoutpwasampleapp/initializers/ember-concurrency", ["exports", "ember-concurrency/initializers/ember-concurrency"], function (_exports, _emberConcurrency) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2011,7 +2011,7 @@
     }
   });
 });
-;define("pwasampleapp/initializers/ember-data", ["exports", "ember-data/setup-container", "ember-data"], function (_exports, _setupContainer, _emberData) {
+;define("withoutpwasampleapp/initializers/ember-data", ["exports", "ember-data/setup-container", "ember-data"], function (_exports, _setupContainer, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2063,7 +2063,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/initializers/export-application-global", ["exports", "pwasampleapp/config/environment"], function (_exports, _environment) {
+;define("withoutpwasampleapp/initializers/export-application-global", ["exports", "withoutpwasampleapp/config/environment"], function (_exports, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2117,7 +2117,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/initializers/user-agent", ["exports", "ember-useragent/initializers/user-agent"], function (_exports, _userAgent) {
+;define("withoutpwasampleapp/initializers/user-agent", ["exports", "ember-useragent/initializers/user-agent"], function (_exports, _userAgent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2139,7 +2139,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/instance-initializers/ember-data", ["exports", "ember-data/initialize-store-service"], function (_exports, _initializeStoreService) {
+;define("withoutpwasampleapp/instance-initializers/ember-data", ["exports", "ember-data/initialize-store-service"], function (_exports, _initializeStoreService) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2152,7 +2152,7 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/instance-initializers/user-agent", ["exports", "ember-useragent/instance-initializers/user-agent"], function (_exports, _userAgent) {
+;define("withoutpwasampleapp/instance-initializers/user-agent", ["exports", "ember-useragent/instance-initializers/user-agent"], function (_exports, _userAgent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2171,7 +2171,7 @@
     }
   });
 });
-;define("pwasampleapp/mixins/default-attrs", ["exports", "virtual-each/mixins/default-attrs"], function (_exports, _defaultAttrs) {
+;define("withoutpwasampleapp/mixins/default-attrs", ["exports", "virtual-each/mixins/default-attrs"], function (_exports, _defaultAttrs) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2184,7 +2184,7 @@
     }
   });
 });
-;define("pwasampleapp/mixins/transition-mixin", ["exports", "ember-css-transitions/mixins/transition-mixin"], function (_exports, _transitionMixin) {
+;define("withoutpwasampleapp/mixins/transition-mixin", ["exports", "ember-css-transitions/mixins/transition-mixin"], function (_exports, _transitionMixin) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2197,7 +2197,7 @@
     }
   });
 });
-;define("pwasampleapp/models/employee", ["exports", "ember-data"], function (_exports, _emberData) {
+;define("withoutpwasampleapp/models/employee", ["exports", "ember-data"], function (_exports, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2214,7 +2214,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/models/post", ["exports", "ember-data"], function (_exports, _emberData) {
+;define("withoutpwasampleapp/models/post", ["exports", "ember-data"], function (_exports, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2230,7 +2230,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/models/user", ["exports", "ember-data"], function (_exports, _emberData) {
+;define("withoutpwasampleapp/models/user", ["exports", "ember-data"], function (_exports, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2248,7 +2248,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/resolver", ["exports", "ember-resolver"], function (_exports, _emberResolver) {
+;define("withoutpwasampleapp/resolver", ["exports", "ember-resolver"], function (_exports, _emberResolver) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2258,7 +2258,7 @@
   var _default = _emberResolver.default;
   _exports.default = _default;
 });
-;define("pwasampleapp/router", ["exports", "pwasampleapp/config/environment"], function (_exports, _environment) {
+;define("withoutpwasampleapp/router", ["exports", "withoutpwasampleapp/config/environment"], function (_exports, _environment) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2277,7 +2277,7 @@
   var _default = Router;
   _exports.default = _default;
 });
-;define("pwasampleapp/routes/create", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/routes/create", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2289,7 +2289,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/routes/index", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/routes/index", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2306,7 +2306,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/routes/posts", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/routes/posts", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2323,7 +2323,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/routes/users", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/routes/users", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2340,7 +2340,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/serializers/application", ["exports", "ember-data"], function (_exports, _emberData) {
+;define("withoutpwasampleapp/serializers/application", ["exports", "ember-data"], function (_exports, _emberData) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2373,7 +2373,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/services/ajax", ["exports", "ember-ajax/services/ajax"], function (_exports, _ajax) {
+;define("withoutpwasampleapp/services/ajax", ["exports", "ember-ajax/services/ajax"], function (_exports, _ajax) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2386,7 +2386,7 @@
     }
   });
 });
-;define("pwasampleapp/services/constants", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/services/constants", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2450,7 +2450,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/services/paper-sidenav", ["exports", "ember-paper/services/paper-sidenav"], function (_exports, _paperSidenav) {
+;define("withoutpwasampleapp/services/paper-sidenav", ["exports", "ember-paper/services/paper-sidenav"], function (_exports, _paperSidenav) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2463,7 +2463,7 @@
     }
   });
 });
-;define("pwasampleapp/services/paper-theme", ["exports", "ember-paper/services/paper-theme"], function (_exports, _paperTheme) {
+;define("withoutpwasampleapp/services/paper-theme", ["exports", "ember-paper/services/paper-theme"], function (_exports, _paperTheme) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2476,7 +2476,7 @@
     }
   });
 });
-;define("pwasampleapp/services/paper-toaster", ["exports", "ember-paper/services/paper-toaster"], function (_exports, _paperToaster) {
+;define("withoutpwasampleapp/services/paper-toaster", ["exports", "ember-paper/services/paper-toaster"], function (_exports, _paperToaster) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2489,7 +2489,7 @@
     }
   });
 });
-;define("pwasampleapp/services/sniffer", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/services/sniffer", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2571,7 +2571,7 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/services/text-measurer", ["exports", "ember-text-measurer/services/text-measurer"], function (_exports, _textMeasurer) {
+;define("withoutpwasampleapp/services/text-measurer", ["exports", "ember-text-measurer/services/text-measurer"], function (_exports, _textMeasurer) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2584,7 +2584,7 @@
     }
   });
 });
-;define("pwasampleapp/services/user-agent", ["exports", "ember-useragent/services/user-agent"], function (_exports, _userAgent) {
+;define("withoutpwasampleapp/services/user-agent", ["exports", "ember-useragent/services/user-agent"], function (_exports, _userAgent) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2597,7 +2597,7 @@
     }
   });
 });
-;define("pwasampleapp/templates/application", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/application", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2606,16 +2606,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "rZsKmLWU",
+    "id": "h7pKlaMF",
     "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row app-container\"],[9],[0,\"\\n  \"],[7,\"header\"],[9],[0,\"\\n    \"],[7,\"nav\"],[9],[0,\"\\n\"],[4,\"link-to\",[\"index\"],null,{\"statements\":[[0,\"        Home\\n\"]],\"parameters\":[]},null],[0,\"    \"],[10],[0,\"\\n  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/application.hbs"
+      "moduleName": "withoutpwasampleapp/templates/application.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/templates/components/test-table", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/components/test-table", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2624,16 +2624,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "QbQypmmA",
+    "id": "eu119SXq",
     "block": "{\"symbols\":[\"t\"],\"statements\":[[5,\"ember-table\",[],[[],[]],{\"statements\":[[0,\"\\n    \"],[6,[22,1,[\"head\"]],[],[[\"@columns\"],[[21,\"columns\"]]]],[0,\"\\n    \"],[6,[22,1,[\"body\"]],[],[[\"@rows\"],[[21,\"model\"]]]],[0,\"\\n\"]],\"parameters\":[1]}]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/components/test-table.hbs"
+      "moduleName": "withoutpwasampleapp/templates/components/test-table.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/templates/create", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/create", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2642,16 +2642,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "MWeojUKS",
-    "block": "{\"symbols\":[\"form\",\"country\",\"select\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-form\",null,[[\"onSubmit\"],[[27,\"action\",[[22,0,[]],\"basicSubmitAction\"],null]]],{\"statements\":[[0,\"        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L7:C18) \"],null]],[[\"label\",\"value\",\"onChange\",\"required\"],[\"First Name\",[23,[\"firstName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"firstName\"]]],null]],null],true]]],false],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L8:C18) \"],null]],[[\"label\",\"value\",\"onChange\"],[\"Last Name\",[23,[\"lastName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"lastName\"]]],null]],null]]]],false],[0,\"\\n            \"],[10],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"autocomplete\"]],\"expected `form.autocomplete` to be a contextual component but found a string. Did you mean `(component form.autocomplete)`? ('pwasampleapp/templates/create.hbs' @ L11:C19) \"],null]],[[\"required\",\"options\",\"selected\",\"searchField\",\"labelPath\",\"label\",\"loadingMessage\",\"noMatchesMessage\",\"onSelectionChange\"],[true,[23,[\"items\"]],[23,[\"selectedCountry\"]],\"name\",\"name\",\"Country\",\"Searching countries...\",\"Oops this country doesn't exist.\",[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"selectedCountry\"]]],null]],null]]],{\"statements\":[[0,\"                \"],[1,[27,\"paper-autocomplete-highlight\",null,[[\"label\",\"searchText\",\"flags\"],[[22,2,[\"name\"]],[22,3,[\"searchText\"]],\"i\"]]],false],[0,\"\\n\"]],\"parameters\":[2,3]},null],[0,\"                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('pwasampleapp/templates/create.hbs' @ L26:C18) \"],null]],[[\"type\",\"label\",\"value\",\"onChange\",\"min\",\"max\",\"required\"],[\"number\",\"Age\",[23,[\"age\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"age\"]]],null]],null],13,65,true]]],false],[0,\"\\n            \"],[10],[0,\"\\n        \"],[10],[0,\"\\n        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"submit-button\"]],\"expected `form.submit-button` to be a contextual component but found a string. Did you mean `(component form.submit-button)`? ('pwasampleapp/templates/create.hbs' @ L30:C15) \"],null]],[[\"raised\",\"primary\"],[true,true]],{\"statements\":[[0,\"Submit\"]],\"parameters\":[]},null],[0,\"\\n        \"],[10],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},null],[0,\"    \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "id": "C7bsgdIP",
+    "block": "{\"symbols\":[\"form\",\"country\",\"select\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n    \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-form\",null,[[\"onSubmit\"],[[27,\"action\",[[22,0,[]],\"basicSubmitAction\"],null]]],{\"statements\":[[0,\"        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('withoutpwasampleapp/templates/create.hbs' @ L7:C18) \"],null]],[[\"label\",\"value\",\"onChange\",\"required\"],[\"First Name\",[23,[\"firstName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"firstName\"]]],null]],null],true]]],false],[0,\"\\n                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('withoutpwasampleapp/templates/create.hbs' @ L8:C18) \"],null]],[[\"label\",\"value\",\"onChange\"],[\"Last Name\",[23,[\"lastName\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"lastName\"]]],null]],null]]]],false],[0,\"\\n            \"],[10],[0,\"\\n            \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"autocomplete\"]],\"expected `form.autocomplete` to be a contextual component but found a string. Did you mean `(component form.autocomplete)`? ('withoutpwasampleapp/templates/create.hbs' @ L11:C19) \"],null]],[[\"required\",\"options\",\"selected\",\"searchField\",\"labelPath\",\"label\",\"loadingMessage\",\"noMatchesMessage\",\"onSelectionChange\"],[true,[23,[\"items\"]],[23,[\"selectedCountry\"]],\"name\",\"name\",\"Country\",\"Searching countries...\",\"Oops this country doesn't exist.\",[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"selectedCountry\"]]],null]],null]]],{\"statements\":[[0,\"                \"],[1,[27,\"paper-autocomplete-highlight\",null,[[\"label\",\"searchText\",\"flags\"],[[22,2,[\"name\"]],[22,3,[\"searchText\"]],\"i\"]]],false],[0,\"\\n\"]],\"parameters\":[2,3]},null],[0,\"                \"],[1,[27,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"input\"]],\"expected `form.input` to be a contextual component but found a string. Did you mean `(component form.input)`? ('withoutpwasampleapp/templates/create.hbs' @ L26:C18) \"],null]],[[\"type\",\"label\",\"value\",\"onChange\",\"min\",\"max\",\"required\"],[\"number\",\"Age\",[23,[\"age\"]],[27,\"action\",[[22,0,[]],[27,\"mut\",[[23,[\"age\"]]],null]],null],13,65,true]]],false],[0,\"\\n            \"],[10],[0,\"\\n        \"],[10],[0,\"\\n        \"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n            \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"submit-button\"]],\"expected `form.submit-button` to be a contextual component but found a string. Did you mean `(component form.submit-button)`? ('withoutpwasampleapp/templates/create.hbs' @ L30:C15) \"],null]],[[\"raised\",\"primary\"],[true,true]],{\"statements\":[[0,\"Submit\"]],\"parameters\":[]},null],[0,\"\\n        \"],[10],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},null],[0,\"    \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/create.hbs"
+      "moduleName": "withoutpwasampleapp/templates/create.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/templates/index", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/index", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2660,16 +2660,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "BXA3M+IA",
-    "block": "{\"symbols\":[\"card\",\"title\",\"text\",\"card\",\"title\",\"text\"],\"statements\":[[0,\"\\n\"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('pwasampleapp/templates/index.hbs' @ L5:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('pwasampleapp/templates/index.hbs' @ L6:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,6,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('pwasampleapp/templates/index.hbs' @ L7:C13) \"],null]],null,{\"statements\":[[0,\"User Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[6]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('pwasampleapp/templates/index.hbs' @ L9:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[5]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('pwasampleapp/templates/index.hbs' @ L13:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"addUserDetails\"],null]]],{\"statements\":[[0,\"Add User\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[4]},null],[0,\"  \"],[10],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('pwasampleapp/templates/index.hbs' @ L21:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('pwasampleapp/templates/index.hbs' @ L22:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,3,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('pwasampleapp/templates/index.hbs' @ L23:C13) \"],null]],null,{\"statements\":[[0,\"User Posts Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[3]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('pwasampleapp/templates/index.hbs' @ L25:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[2]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('pwasampleapp/templates/index.hbs' @ L29:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserPostDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
+    "id": "+8ygQkhR",
+    "block": "{\"symbols\":[\"card\",\"title\",\"text\",\"card\",\"title\",\"text\"],\"statements\":[[0,\"\\n\"],[7,\"div\"],[11,\"class\",\"layout-row\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('withoutpwasampleapp/templates/index.hbs' @ L5:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('withoutpwasampleapp/templates/index.hbs' @ L6:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,6,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('withoutpwasampleapp/templates/index.hbs' @ L7:C13) \"],null]],null,{\"statements\":[[0,\"User Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[6]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,5,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('withoutpwasampleapp/templates/index.hbs' @ L9:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[5]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,4,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('withoutpwasampleapp/templates/index.hbs' @ L13:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"addUserDetails\"],null]]],{\"statements\":[[0,\"Add User\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[4]},null],[0,\"  \"],[10],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-50\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"title\"]],\"expected `card.title` to be a contextual component but found a string. Did you mean `(component card.title)`? ('withoutpwasampleapp/templates/index.hbs' @ L21:C9) \"],null]],null,{\"statements\":[[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"text\"]],\"expected `title.text` to be a contextual component but found a string. Did you mean `(component title.text)`? ('withoutpwasampleapp/templates/index.hbs' @ L22:C11) \"],null]],null,{\"statements\":[[0,\"          \"],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,3,[\"headline\"]],\"expected `text.headline` to be a contextual component but found a string. Did you mean `(component text.headline)`? ('withoutpwasampleapp/templates/index.hbs' @ L23:C13) \"],null]],null,{\"statements\":[[0,\"User Posts Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[3]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,2,[\"media\"]],\"expected `title.media` to be a contextual component but found a string. Did you mean `(component title.media)`? ('withoutpwasampleapp/templates/index.hbs' @ L25:C11) \"],null]],[[\"size\"],[\"md\"]],{\"statements\":[[0,\"          \"],[7,\"div\"],[11,\"class\",\"card-media\"],[9],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[2]},null],[4,\"component\",[[27,\"-assert-implicit-component-helper-argument\",[[22,1,[\"actions\"]],\"expected `card.actions` to be a contextual component but found a string. Did you mean `(component card.actions)`? ('withoutpwasampleapp/templates/index.hbs' @ L29:C9) \"],null]],null,{\"statements\":[[0,\"        \"],[4,\"paper-button\",null,[[\"onClick\"],[[27,\"action\",[[22,0,[]],\"displayUserPostDetails\"],null]]],{\"statements\":[[0,\"Details\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/index.hbs"
+      "moduleName": "withoutpwasampleapp/templates/index.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/templates/posts", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/posts", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2678,16 +2678,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "ivFU2xzr",
+    "id": "fWa77Wla",
     "block": "{\"symbols\":[],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-list\",null,null,{\"statements\":[[0,\"        \"],[4,\"paper-subheader\",null,null,{\"statements\":[[0,\"User PostDetails\"]],\"parameters\":[]},null],[0,\"\\n        Currently we don't have any post.\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/posts.hbs"
+      "moduleName": "withoutpwasampleapp/templates/posts.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/templates/users", ["exports"], function (_exports) {
+;define("withoutpwasampleapp/templates/users", ["exports"], function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2696,16 +2696,16 @@
   _exports.default = void 0;
 
   var _default = Ember.HTMLBars.template({
-    "id": "GIh/zHfB",
+    "id": "/XFYYFwn",
     "block": "{\"symbols\":[\"user\"],\"statements\":[[7,\"div\"],[11,\"class\",\"layout-row layout-lg-colum layout-md-colum layout-sm-colum layout-xs-column\"],[9],[0,\"\\n  \"],[7,\"div\"],[11,\"class\",\"layout-column flex-lg flex-md flex-sm flex-xs\"],[9],[0,\"\\n\"],[4,\"paper-card\",null,null,{\"statements\":[[4,\"paper-list\",null,null,{\"statements\":[[0,\"        \"],[4,\"paper-subheader\",null,null,{\"statements\":[[0,\"User Details\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"each\",[[23,[\"model\"]]],null,{\"statements\":[[4,\"paper-item\",null,[[\"class\"],[\"md-3-line\"]],{\"statements\":[[0,\"            \"],[7,\"div\"],[11,\"class\",\"md-list-item-text\"],[9],[0,\"\\n              \"],[7,\"h3\"],[9],[1,[22,1,[\"name\"]],false],[10],[0,\"\\n              \"],[7,\"h4\"],[9],[1,[22,1,[\"email\"]],false],[10],[0,\"\\n              \"],[7,\"p\"],[9],[0,\"Some longer notes here could be here. But they aren't.\"],[10],[0,\"\\n            \"],[10],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null]],\"parameters\":[]},null]],\"parameters\":[]},null],[0,\"  \"],[10],[0,\"\\n\"],[10],[0,\"\\n\"],[1,[21,\"outlet\"],false]],\"hasEval\":false}",
     "meta": {
-      "moduleName": "pwasampleapp/templates/users.hbs"
+      "moduleName": "withoutpwasampleapp/templates/users.hbs"
     }
   });
 
   _exports.default = _default;
 });
-;define("pwasampleapp/utils/clamp", ["exports", "ember-paper/utils/clamp"], function (_exports, _clamp) {
+;define("withoutpwasampleapp/utils/clamp", ["exports", "ember-paper/utils/clamp"], function (_exports, _clamp) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -2741,7 +2741,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("pwasampleapp/app")["default"].create({"name":"pwasampleapp","version":"0.0.0+8cd4ad2a"});
+            require("pwasampleapp/app")["default"].create({"name":"withoutpwasampleapp","version":"0.0.0+c9adeef7"});
           }
         
-//# sourceMappingURL=pwasampleapp.map
+//# sourceMappingURL=withoutpwasampleapp.map
