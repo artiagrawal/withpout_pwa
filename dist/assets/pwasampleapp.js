@@ -2139,19 +2139,6 @@
   };
   _exports.default = _default;
 });
-;define("pwasampleapp/instance-initializers/clear-double-boot", ["exports", "ember-cli-fastboot/instance-initializers/clear-double-boot"], function (_exports, _clearDoubleBoot) {
-  "use strict";
-
-  Object.defineProperty(_exports, "__esModule", {
-    value: true
-  });
-  Object.defineProperty(_exports, "default", {
-    enumerable: true,
-    get: function () {
-      return _clearDoubleBoot.default;
-    }
-  });
-});
 ;define("pwasampleapp/instance-initializers/ember-data", ["exports", "ember-data/initialize-store-service"], function (_exports, _initializeStoreService) {
   "use strict";
 
@@ -2181,19 +2168,6 @@
     enumerable: true,
     get: function () {
       return _userAgent.initialize;
-    }
-  });
-});
-;define("pwasampleapp/locations/none", ["exports", "ember-cli-fastboot/locations/none"], function (_exports, _none) {
-  "use strict";
-
-  Object.defineProperty(_exports, "__esModule", {
-    value: true
-  });
-  Object.defineProperty(_exports, "default", {
-    enumerable: true,
-    get: function () {
-      return _none.default;
     }
   });
 });
@@ -2476,19 +2450,6 @@
 
   _exports.default = _default;
 });
-;define("pwasampleapp/services/fastboot", ["exports", "ember-cli-fastboot/services/fastboot"], function (_exports, _fastboot) {
-  "use strict";
-
-  Object.defineProperty(_exports, "__esModule", {
-    value: true
-  });
-  Object.defineProperty(_exports, "default", {
-    enumerable: true,
-    get: function () {
-      return _fastboot.default;
-    }
-  });
-});
 ;define("pwasampleapp/services/paper-sidenav", ["exports", "ember-paper/services/paper-sidenav"], function (_exports, _paperSidenav) {
   "use strict";
 
@@ -2760,10 +2721,8 @@
 ;
 
 ;define('pwasampleapp/config/environment', [], function() {
-  if (typeof FastBoot !== 'undefined') {
-return FastBoot.config('pwasampleapp');
-} else {
-var prefix = 'pwasampleapp';try {
+  var prefix = 'pwasampleapp';
+try {
   var metaName = prefix + '/config/environment';
   var rawConfig = document.querySelector('meta[name="' + metaName + '"]').getAttribute('content');
   var config = JSON.parse(decodeURIComponent(rawConfig));
@@ -2778,14 +2737,11 @@ catch(err) {
   throw new Error('Could not read config from meta tag with name "' + metaName + '".');
 }
 
-}
 });
 
 ;
-if (typeof FastBoot === 'undefined') {
-  if (!runningTests) {
-    require('pwasampleapp/app')['default'].create({"name":"pwasampleapp","version":"0.0.0+17413cc5"});
-  }
-}
-
+          if (!runningTests) {
+            require("pwasampleapp/app")["default"].create({"name":"pwasampleapp","version":"0.0.0+8cd4ad2a"});
+          }
+        
 //# sourceMappingURL=pwasampleapp.map

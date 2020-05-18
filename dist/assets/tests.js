@@ -599,10 +599,8 @@ define("pwasampleapp/tests/unit/serializers/application-test", ["qunit", "ember-
   });
 });
 define('pwasampleapp/config/environment', [], function() {
-  if (typeof FastBoot !== 'undefined') {
-return FastBoot.config('pwasampleapp');
-} else {
-var prefix = 'pwasampleapp';try {
+  var prefix = 'pwasampleapp';
+try {
   var metaName = prefix + '/config/environment';
   var rawConfig = document.querySelector('meta[name="' + metaName + '"]').getAttribute('content');
   var config = JSON.parse(decodeURIComponent(rawConfig));
@@ -617,7 +615,6 @@ catch(err) {
   throw new Error('Could not read config from meta tag with name "' + metaName + '".');
 }
 
-}
 });
 
 require('pwasampleapp/tests/test-helper');

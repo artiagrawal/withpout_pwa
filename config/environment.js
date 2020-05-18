@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'pwasampleapp',
     environment,
@@ -20,9 +20,6 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    },
-    fastboot: {
-      hostWhitelist: ['pwasampleapp.surge.sh', 'subdomain.example.com', /^localhost:\d+$/]
     }
   };
 
